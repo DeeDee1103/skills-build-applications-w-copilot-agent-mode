@@ -13,7 +13,7 @@ function Leaderboard() {
   return (
     <div>
       <h1>Leaderboard</h1>
-      <table>
+      <table className="table table-striped">
         <thead>
           <tr>
             <th>Username</th>
