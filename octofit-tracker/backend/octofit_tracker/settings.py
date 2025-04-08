@@ -25,8 +25,8 @@ SECRET_KEY = "django-insecure-dm97n-(kn0=pg=xakai2s4+jgt5x+$k2qm$(*4g%44t63en_^3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# Allow all hosts
-ALLOWED_HOSTS = ['*']
+# Allow host access to codespace URL and localhost
+ALLOWED_HOSTS = ['humble-halibut-w5qw64p6qg7276g-8000.app.github.dev', 'localhost']
 
 
 # Application definition
